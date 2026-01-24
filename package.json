@@ -1,0 +1,20 @@
+{
+  "name": "KeystonesHub",
+  "version": "1.0.0",
+  "description": "i pooped",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pluh"
+  },
+  "keywords": ["games", "tutoring", "education", "unblocked"],
+  "author": "Keystones Hub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ToadsArcade/KeystonesHub/issues"
+  },
+  "homepage": "https://github.com/ToadsArcade/KeystonesHub/blob/main/README.md"
+}
