@@ -1567,9 +1567,9 @@ async function downloadCurrentGame() {
 
 function injectWatermark(htmlContent, gameTitle) {
    const watermarkHTML = `
-    <!-- Downloaded From Noah's Tutoring Hub -->
+    <!-- Downloaded From Aiden's Hub -->
     <script>
-        console.log('%c🔄 Loading game downloaded from Noah\\'s Tutoring Hub', 'color: #c27c15; font-weight: bold;');
+        console.log('%c🔄 Loading game downloaded from Aiden\\'s Tutoring Hub', 'color: #c27c15; font-weight: bold;');
     <\/script>
     
     <div id="noahs-watermark" 
@@ -1602,10 +1602,10 @@ function injectWatermark(htmlContent, gameTitle) {
             -webkit-tap-highlight-color: transparent !important;
         ">
         <img src="https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/master/cuh.png" 
-             alt="Noah's Tutoring Hub" 
+             alt="Aiden's Tutoring Hub" 
              style="width: 16px !important; height: 16px !important; border-radius: 3px !important; pointer-events: none !important;"
              onerror="this.style.display='none'">
-        <span style="pointer-events: none !important;">Downloaded from Noah's Tutoring Hub</span>
+        <span style="pointer-events: none !important;">Downloaded from Aidens Tutoring Hub</span>
     </div>
 `;
     
@@ -1662,7 +1662,7 @@ function injectWatermark(htmlContent, gameTitle) {
                 };
 
                 watermark.setAttribute('role', 'button');
-                watermark.setAttribute('aria-label', 'Visit Noah\\'s Tutoring Hub website');
+                watermark.setAttribute('aria-label', 'Visit Aiden\\'s Tutoring Hub website');
                 watermark.setAttribute('tabindex', '0');
 
                 watermark.addEventListener('click', function(e) {
@@ -1763,7 +1763,7 @@ function injectWatermark(htmlContent, gameTitle) {
                 protectWatermark();
             }
 
-            console.log('%c🎮 Game: "' + gameTitle + '", Downloaded from Noah\\'s Tutoring Hub', 
+            console.log('%c🎮 Game: "' + gameTitle + '", Downloaded from Aiden\\'s Tutoring Hub', 
                 'color: #c27c15; font-weight: bold; font-size: 14px;');
             console.log('%c📚 Visit https://noahs-calculus-tutor.pages.dev/ for more games!', 
                 'color: #e69500;');
@@ -2972,3 +2972,4 @@ window.addEventListener('beforeunload', (event) => {
 </body>
 
 </html>
+
