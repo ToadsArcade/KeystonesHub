@@ -747,7 +747,7 @@ body::-webkit-scrollbar,
                 <p class="prompt-line">> WELCOME TO AIDENS GAME HUB.</p>
                 <p class="prompt-line">> CONNECTING... <span class="glow" style="color: var(--primary-orange);">SUCCESS</span></p>
                 <p class="prompt-line">> LESSONS LOADING...</p>
-                <p class="prompt-line typing">> SHOUTOUT NOAH...</p>
+                <p class="prompt-line typing">> SHOUTOUT TO MR POO POO MAN...</p>
             </div>
         </header>
         <div class="nav-tabs">
@@ -2849,7 +2849,7 @@ function setFavicon(iconUrl) {
 function updateTitle() {
     if (!document.hidden) {
         currentSubject = getRandomSubject();
-        document.title = `Noahs Tutoring | ${currentSubject}`;
+        document.title = `Aidens Hub | ${currentSubject}`;
     } else {
         document.title = "Home";
     }
@@ -2869,7 +2869,7 @@ document.addEventListener('visibilitychange', function() {
         setFavicon(inactiveIcon);
     } else {
         currentSubject = getRandomSubject();
-        document.title = `Noahs Tutoring | ${currentSubject}`;
+        document.title = `Aidens Hub | ${currentSubject}`;
         setFavicon(activeIcon);
     }
 });
@@ -2877,7 +2877,7 @@ document.addEventListener('visibilitychange', function() {
 setInterval(function() {
     if (!document.hidden) {
         currentSubject = getRandomSubject();
-        document.title = `Noahs Tutoring | ${currentSubject}`;
+        document.title = `Aidens Hub | ${currentSubject}`;
     }
 }, 30000);
 
