@@ -896,7 +896,7 @@ body::-webkit-scrollbar,
             { title: "Final Fantasy VII", desc: "Iconic RPG adventure with memorable characters, epic story, and turn-based combat system", url: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor@master/games/156.html", image: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/images/284.jpg" },
             { title: "Please Dont Touch Anything", desc: "Interactive horror experience where you must resist touching objects with escalating consequences", url: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor@master/games/155.html", image: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/images/283.jpg" },
             { title: "Minesweeper Classic", desc: "A single-player logic puzzle where you clear a grid of hidden mines by revealing tiles", url: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor@master/games/163.html", image: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/images/290.jpg" },
-            { title: "Doom 3", desc: "A sci-fi horror first-person shooter at a Mars research base where teleportation experiments open a gateway to Hell, unleashing demons and zombies.", url: "https://doom3kaidensarcade.netlify.app/", image: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/images/282.jpg" },
+            { title: "Doom 3", desc: "A sci-fi horror first-person shooter at a Mars research base where teleportation experiments open a gateway to Hell, unleashing demons and zombies.", url: "https://doom3kKeystonesarcade.netlify.app/", image: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/images/282.jpg" },
             { title: "Slendy Tubbies", desc: "A popular indie horror game series blending the cute Teletubbies with the terrifying mechanics of Slender", url: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor@master/games/273.html", image: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/images/281.jpg" },
             { title: "Pixel Gun 3D", desc: "A popular blocky pixelated first-person shooter and a campaign where players fight hordes of pixelated zombies", url: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor@master/games/272.html", image: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/images/280.jpg" },
             { title: "Flying Gorilla", desc: "A free, addictive 3D mobile arcade runner where players control a flying gorilla", url: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor@master/games/271.html", image: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/images/279.jpg" },
@@ -1567,9 +1567,9 @@ async function downloadCurrentGame() {
 
 function injectWatermark(htmlContent, gameTitle) {
    const watermarkHTML = `
-    <!-- Downloaded From Aiden's Hub -->
+    <!-- Downloaded From Keystone's Hub -->
     <script>
-        console.log('%c🔄 Loading game downloaded from Aiden\\'s Tutoring Hub', 'color: #c27c15; font-weight: bold;');
+        console.log('%c🔄 Loading game downloaded from Keystone\\'s Tutoring Hub', 'color: #c27c15; font-weight: bold;');
     <\/script>
     
     <div id="noahs-watermark" 
@@ -1602,10 +1602,10 @@ function injectWatermark(htmlContent, gameTitle) {
             -webkit-tap-highlight-color: transparent !important;
         ">
         <img src="https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/master/cuh.png" 
-             alt="Aiden's Tutoring Hub" 
+             alt="Keystone's Tutoring Hub" 
              style="width: 16px !important; height: 16px !important; border-radius: 3px !important; pointer-events: none !important;"
              onerror="this.style.display='none'">
-        <span style="pointer-events: none !important;">Downloaded from Aidens Tutoring Hub</span>
+        <span style="pointer-events: none !important;">Downloaded from Keystones Tutoring Hub</span>
     </div>
 `;
     
@@ -1662,7 +1662,7 @@ function injectWatermark(htmlContent, gameTitle) {
                 };
 
                 watermark.setAttribute('role', 'button');
-                watermark.setAttribute('aria-label', 'Visit Aiden\\'s Tutoring Hub website');
+                watermark.setAttribute('aria-label', 'Visit Keystone\\'s Tutoring Hub website');
                 watermark.setAttribute('tabindex', '0');
 
                 watermark.addEventListener('click', function(e) {
@@ -1763,9 +1763,9 @@ function injectWatermark(htmlContent, gameTitle) {
                 protectWatermark();
             }
 
-            console.log('%c🎮 Game: "' + gameTitle + '", Downloaded from Aiden\\'s Tutoring Hub', 
+            console.log('%c🎮 Game: "' + gameTitle + '", Downloaded from Keystone\\'s Tutoring Hub', 
                 'color: #c27c15; font-weight: bold; font-size: 14px;');
-            console.log('%c📚 Visit https://noahs-calculus-tutor.pages.dev/ for more games!', 
+            console.log('%c📚 Visit talongames.uk/ for more games!', 
                 'color: #e69500;');
         })();
     <\/script>
@@ -2849,7 +2849,7 @@ function setFavicon(iconUrl) {
 function updateTitle() {
     if (!document.hidden) {
         currentSubject = getRandomSubject();
-        document.title = `Aidens Hub | ${currentSubject}`;
+        document.title = `Keystone's Hub | ${currentSubject}`;
     } else {
         document.title = "Home";
     }
@@ -2869,7 +2869,7 @@ document.addEventListener('visibilitychange', function() {
         setFavicon(inactiveIcon);
     } else {
         currentSubject = getRandomSubject();
-        document.title = `Aidens Hub | ${currentSubject}`;
+        document.title = `Keystones Hub | ${currentSubject}`;
         setFavicon(activeIcon);
     }
 });
@@ -2877,7 +2877,7 @@ document.addEventListener('visibilitychange', function() {
 setInterval(function() {
     if (!document.hidden) {
         currentSubject = getRandomSubject();
-        document.title = `Aidens Hub | ${currentSubject}`;
+        document.title = `Keystones Hub | ${currentSubject}`;
     }
 }, 30000);
 
